@@ -33,7 +33,7 @@ h1 {
     background-color: hsl(179, 100%, 13%);
     padding-left: 35px;
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     .parent{
         flex-direction: row;
         flex-wrap: wrap;
@@ -69,33 +69,72 @@ h1 {
     }
   }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 768px) {
     .parent{
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 470px;
-        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 470px;   
     }
     .child1{
+        width: 25%;
         border-bottom-left-radius:10px;
         border-top-left-radius:10px;
         padding-right: 30px;
         padding-top: 40px;
     }
     .child2{
+        width: 25%;
         padding-right: 30px;
         padding-top: 40px;
     }
     .child3{
+        width: 25%;
         padding-right: 30px;
         padding-top: 40px;
         border-top-right-radius:10px;
         border-bottom-right-radius:10px;
     }
     .padding{
-        padding-top: 70px;
+        position: absolute;
+        bottom: 140px;
+    }
+    .button{
+        width:150px;
+        height:50px;
+    }
+  }
+  @media only screen and (min-width: 850px) {
+    .parent{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 15%;
+        margin-right: auto;
+        height: 470px;
+    }
+    .child1{
+        width: 20%;
+        border-bottom-left-radius:10px;
+        border-top-left-radius:10px;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+    .child2{
+        width: 20%;
+        padding-right: 30px;
+        padding-top: 40px;
+    }
+    .child3{
+        width: 20%;
+        padding-right: 30px;
+        padding-top: 40px;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+    }
+    .padding{
+        position: absolute;
+        bottom: 140px;
     }
     .button{
         width:150px;
